@@ -23,6 +23,7 @@ background-color:gainsboro;
   max-width: var(--width-page);
   color:var(--primary-active-color);
   text-align: center;
+  max-height: 80rem;
 }
 
 #main-title {
@@ -106,9 +107,13 @@ cursor: pointer;
 
 .main-form-helper-text{
   font-size:30px;
+  color: red;
 }
 .task-item{
   box-sizing: border-box;
   border-width: 2px;
   border-color: black;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
 }
